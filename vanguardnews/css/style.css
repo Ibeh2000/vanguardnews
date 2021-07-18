@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.v{
+    color: red;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 15px;
+    
+}
+.nav{
+    display:flex;
+    background-color: black;
+    padding-left:60px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+#dropdown{
+    color: white;
+    padding-top: 10px;
+}
+.nav-link{
+font-size: 20px;
+
+}
+#search{
+    font-size: 0;
+    margin-left: 100px;
+    padding: 5px;
+}
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.head-a{
+    color: red;
+    font: size 50px;
+    padding: 20px;
+}
+
+#latestnews{
+    margin-left: 100px;
+    overflow: scroll;
+}
+
+
+.image{
+    margin-left:5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.head-a a{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.pages{ 
+    font-size: 15px;
+    color: #000;
+    text-align:left;
+    margin-top: 20px;   
+}
+/*reponsive design*/
+@media(max-width:800px){
+    body{
+        background-color: gray;
+    }
+    
+
+}
